@@ -6,7 +6,7 @@ const Navlinks = () => {
             <NavLink
               to="/"
               className={`({ isActive }) =>{
-                isActive ? "text-red-500 font-semibold" : ""
+                isActive ? "text-[#8f54ee] font-semibold underline" : ""
               }`}
             >
               Home
@@ -15,7 +15,7 @@ const Navlinks = () => {
             <NavLink
               to="/apps"
               className={`({ isActive }) =>{
-                isActive ? "text-red-500 font-semibold" : ""
+                isActive ? "text-[#8f54ee] font-semibold underline" : ""
               }`}
             >
               Apps
@@ -24,7 +24,7 @@ const Navlinks = () => {
             <NavLink
               to="/installation"
               className={`({ isActive }) =>{
-                isActive ? "text-red-500 font-semibold" : ""
+                isActive ? "text-[#8f54ee] font-semibold underline" : ""
               }`}
             >
               Installation

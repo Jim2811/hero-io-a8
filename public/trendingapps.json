@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
+    "title": "TaskFlow Manager",
+    "companyName": "NextGen Solutions",
+    "id": 1,
+    "description": "Boost productivity with smart task tracking and project management tools.",
+    "size": 45,
+    "reviews": 12500,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
+    "title": "FitTrack Pro",
+    "companyName": "Healthify Labs",
+    "id": 2,
+    "description": "Track your workouts, calories, and fitness goals effortlessly.",
+    "size": 60,
+    "reviews": 8900,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
+    "title": "PhotoSpark Editor",
+    "companyName": "Pixel Studio",
+    "id": 3,
+    "description": "Enhance photos with filters, effects, and AI-powered touch-ups.",
+    "size": 80,
+    "reviews": 14200,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
+    "title": "NoteWave",
+    "companyName": "CleverSoft",
+    "id": 4,
+    "description": "Sync notes and ideas across devices with smart organization.",
+    "size": 35,
+    "reviews": 7200,
+    "ratingAvg": 4.3,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
+    "title": "SoundMate Player",
+    "companyName": "WaveMedia",
+    "id": 5,
+    "description": "Listen to your favorite songs, podcasts, and audiobooks anywhere.",
+    "size": 70,
+    "reviews": 21300,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 13400 }
+    ]
+  },
+  {
+    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
+    "title": "QuickScan PDF",
+    "companyName": "DocuTech",
+    "id": 6,
+    "description": "Scan, edit, and share documents instantly from your mobile device.",
+    "size": 50,
+    "reviews": 7800,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
+    "title": "TravelGo Planner",
+    "companyName": "JetWay Apps",
+    "id": 7,
+    "description": "Plan trips, find destinations, and manage itineraries easily.",
+    "size": 90,
+    "reviews": 9200,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
+    "title": "CryptoTrack",
+    "companyName": "FinCore",
+    "id": 8,
+    "description": "Monitor live cryptocurrency prices and portfolio performance.",
+    "size": 65,
+    "reviews": 18700,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 13200 }
+    ]
+  }
+]

@@ -3,7 +3,7 @@ import React from "react";
 const Homebanner = () => {
   return (
     <>
-      <div className="bg-gray-100 text-center px-2">
+      <div className=" text-center px-2">
         <div className="max-w-[1200px] mx-auto">
           <div className="pb-3">
             <h1 className="md:text-5xl font-bold md:pt-11 pt-6 text-3xl">

@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
@@ -8,14 +8,15 @@ import Home from "./Components/Home.jsx";
 import Apps from "./Components/Apps.jsx";
 import Installation from "./Components/Installation.jsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
   {
     path: '/',
     Component: App,
     children: [
       {
         index: true,
-        Component: Home
+        Component: Home,
       },
       {
         path: "apps",

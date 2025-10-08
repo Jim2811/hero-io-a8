@@ -5,7 +5,7 @@ const AppCards = ({apps}) => {
     return (
         <>
         {
-            apps.map(app => <AppCard app = {app}></AppCard>)
+            apps.map(app => <AppCard key={app.id} app = {app}></AppCard>)
         }
         </>
     );

@@ -1,8 +1,8 @@
 import React from 'react';
-import TrendingAppCard from '../TrendingAppCard/TrendingAppCard';
 import { Link } from 'react-router';
+import AppCard from '../AppCard/AppCard';
 
-const TrendingApps = ({trendingApps}) => {
+const TrendingApps = ({apps}) => {
     return (
         <>
             <div className='max-w-[1200px] mx-auto py-12 cursor-pointer'>
@@ -10,9 +10,9 @@ const TrendingApps = ({trendingApps}) => {
                     <h2 className='text-3xl font-bold pb-2'>Trending Apps</h2>
                     <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='py-8 grid md:grid-cols-3 gap-4'>
+                <div className='py-8 grid md:grid-cols-4 gap-4'>
                     {
-                        trendingApps.map(trendingApp => <TrendingAppCard trendingApp = {trendingApp}></TrendingAppCard>)
+                        apps.slice(0,8).map(app => <AppCard key={app.id} app = {app}></AppCard>)
                     }
                 </div>
                 <div className='text-center'>

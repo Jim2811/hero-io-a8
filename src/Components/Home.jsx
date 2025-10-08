@@ -9,13 +9,13 @@ import { AppsContext } from '../Context/AppsContext';
 
 const Home = () => {
     const apps = useContext(AppsContext)
-    const trendingApps = apps.allApps.slice(0,8)
+    // const trendingApps = apps.allApps.slice(0,8)
     return (
         <>
         <div className='bg-gray-100'>
             <Homebanner></Homebanner>
             <Statics></Statics>
-            <TrendingApps trendingApps={trendingApps}></TrendingApps>
+            <TrendingApps apps={apps.allApps}></TrendingApps>
         </div>
         </>
     );

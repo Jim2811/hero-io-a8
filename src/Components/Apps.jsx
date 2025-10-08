@@ -7,7 +7,7 @@ const Apps = () => {
     const apps = useContext(AppsContext)
   return (
     <>
-      <div className="bg-gray-100 h-[100vh]">
+      <div className="bg-gray-100">
         <div className="max-w-[1200px] mx-auto">
           <div className="text-center py-10">
             <h1 className="font-bold text-3xl">Our All Applications</h1>
@@ -42,7 +42,7 @@ const Apps = () => {
             </div>
           </div>
             {/* app cards */}
-            <div className="py-8 grid md:grid-cols-3 gap-4">
+            <div className="py-8 grid md:grid-cols-4 gap-4">
                 <AppCards apps= {apps.allApps}>
 
                 </AppCards>

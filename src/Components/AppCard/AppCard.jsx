@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const AppCard = ({app}) => {
+  const navigate = useNavigate()
     return (
-        <div>
+        <div className='cursor-pointer' onClick={()=> navigate(`/apps/${app.id}`)}>
             <div className="card bg-base-100 max-w-96 shadow-sm">
           <figure>
             <img

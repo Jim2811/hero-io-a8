@@ -1,9 +1,9 @@
 import { Outlet } from "react-router";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import { createContext, Suspense, use } from "react";
+import { Suspense, use } from "react";
+import { AppsContext } from "./Context/AppsContext";
 
-export const AppsContext = createContext();
 const allAppPromise = fetch("/appData.json").then((r) => r.json());
 function App() {
   const allApps = use(allAppPromise);

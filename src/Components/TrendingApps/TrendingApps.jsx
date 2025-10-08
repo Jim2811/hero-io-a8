@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const TrendingApps = ({trendingApps}) => {
     return (
         <>
-            <div className='max-w-[1200px] mx-auto py-12'>
+            <div className='max-w-[1200px] mx-auto py-12 cursor-pointer'>
                 <div className='text-center'>
                     <h2 className='text-3xl font-bold pb-2'>Trending Apps</h2>
                     <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>

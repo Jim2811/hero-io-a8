@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
+import { toast } from "react-toastify";
 import {
   BarChart,
   Bar,
@@ -18,6 +19,20 @@ const AppDetails = () => {
   const totalDownloads = appDetail.downloads / 1000000;
   const ratingsData = appDetail.ratings;
   const reverseRating = [...ratingsData].reverse()
+  // button interactivity
+  const appList = JSON.parse(localStorage.getItem("installedAppsList") || "[]")
+  const installedApps = () => {
+    return appList.find(a => a.id === appDetail.id)
+  }
+  const [install, setInstall] = useState(installedApps())
+  const handleInstall = () => {
+    appList.push(appDetail)
+    localStorage.setItem("installedAppsList", JSON.stringify(appList))
+    setInstall(true)
+    toast.success(`${appDetail.title} App is installed successfully!`)
+  }
+
+  // button interactivity endsssss
   return (
     <div className="bg-gray-100 h-full">
       <div className="max-w-[1200px] mx-auto">
@@ -59,8 +74,15 @@ const AppDetails = () => {
               </div>
             </div>
             <div>
-              <button className="btn bg-green-500 text-white">
-                Install Now ({appDetail.size} MB)
+              {/*  button*/}
+              <button className={`btn text-white ${install ? "bg-green-500 opacity-100" : "bg-green-500"}`}
+
+                disabled={install}
+                onClick={!install ? handleInstall : undefined}
+              >
+                {install ? "Installed" : `Install Now (${appDetail.size} MB)`}
+
+
               </button>
             </div>
           </div>
@@ -72,31 +94,31 @@ const AppDetails = () => {
           <div>
             {
 
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart
-                
-                data={reverseRating}
-                layout="vertical"
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 10,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="0 0" />
-                <XAxis type="number" dataKey = "count"/>
-                <YAxis dataKey="name" type="category" width={70}/>
-                <Tooltip />
-                <Legend />
-                <Bar
-                  dataKey="count"
-                  fill="#FF8811"
-                  name= "count"
-                  activeBar={<Rectangle fill="green"  />}
-                />
-              </BarChart>
-            </ResponsiveContainer>
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart
+
+                  data={reverseRating}
+                  layout="vertical"
+                  margin={{
+                    top: 5,
+                    right: 30,
+                    left: 10,
+                    bottom: 5,
+                  }}
+                >
+                  <CartesianGrid strokeDasharray="0 0" />
+                  <XAxis type="number" dataKey="count" />
+                  <YAxis dataKey="name" type="category" width={70} />
+                  <Tooltip />
+                  <Legend />
+                  <Bar
+                    dataKey="count"
+                    fill="#FF8811"
+                    name="count"
+                    activeBar={<Rectangle fill="green" />}
+                  />
+                </BarChart>
+              </ResponsiveContainer>
             }
           </div>
         </div>

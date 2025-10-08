@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import { Suspense, use } from "react";
 import { AppsContext } from "./Context/AppsContext";
+import { ToastContainer } from "react-toastify";
 
 const allAppPromise = fetch("/appData.json").then((r) => r.json());
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Outlet></Outlet>
           </AppsContext.Provider>
         </Suspense>
+        <ToastContainer></ToastContainer>
       </main>
     </>
   );

@@ -12,7 +12,7 @@ const Installation = (id) => {
         toast.success(`${name} Uninstalled Successfully!`)
     }
     return (
-        <div className='max-w-[1200px] mx-auto'>
+        <div className='max-w-[1200px] mx-auto pb-15 min-h-[70vh]'>
             <div className="text-center py-10">
                 <h1 className="font-bold text-3xl">Your Installed Apps</h1>
                 <p className='py-3'>

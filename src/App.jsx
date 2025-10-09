@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import { Suspense, use } from "react";
 import { AppsContext } from "./Context/AppsContext";
 import { ToastContainer } from "react-toastify";
+import Footer from "./Components/Footer/Footer";
 
 const allAppPromise = fetch("/appData.json").then((r) => r.json());
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Suspense>
         <ToastContainer></ToastContainer>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }

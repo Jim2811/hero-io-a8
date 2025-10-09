@@ -1,10 +1,35 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Home from "./Home";
 import { AppsContext } from "../Context/AppsContext";
 import AppCards from "./AppCard/AppCards";
+import AppNotFound from "./AppNotFound/AppNotFound";
+import SearchAppNotFound from "./SearchAppNotFound/SearchAppNotFound";
 
 const Apps = () => {
     const apps = useContext(AppsContext)
+    const [searchValue, setSearchValue] = useState('')
+    const [filteredApps, setFilteredApps] = useState(apps.allApps)
+    const [loading, setLoading] = useState(false)
+    const searcTime = parseInt( Math.random()*200)
+    const handleSearch = (e) =>{
+      const val = e.target.value
+      setSearchValue(val)
+      if(val.trim() === ""){
+        setFilteredApps(apps.allApps)
+        setLoading(false)
+        return;
+      }
+      setLoading(true)
+      setTimeout(()=>{
+        const searchResult = apps.allApps.filter((a)=>a.title.toLowerCase().includes(val.toLowerCase()))
+        setFilteredApps(searchResult)
+        setLoading(false)
+      }, searcTime)
+    }
+    const handleReset = () =>{
+      setSearchValue('')
+      setFilteredApps(apps.allApps)
+    }
   return (
     <>
       <div className="bg-gray-100">
@@ -37,16 +62,20 @@ const Apps = () => {
                     <path d="m21 21-4.3-4.3"></path>
                   </g>
                 </svg>
-                <input type="search" required placeholder="Search" />
+                <input type="search" value={searchValue} placeholder="Search Apps"  onChange={handleSearch}/>
               </label>
             </div>
           </div>
             {/* app cards */}
-            <div className="py-8 grid md:grid-cols-4 gap-4">
-                <AppCards apps= {apps.allApps}>
+            {
+              loading ? <div className="flex justify-center items-center"><span className="loading loading-bars loading-xl"></span></div> : filteredApps.length===0 ? <SearchAppNotFound handleReset={handleReset}></SearchAppNotFound> : 
+              <div className="py-8 grid md:grid-cols-4 gap-4">
+                <AppCards apps= {filteredApps}>
 
                 </AppCards>
             </div>
+            }
+            
         </div>
       </div>
     </>

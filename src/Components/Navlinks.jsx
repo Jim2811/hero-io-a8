@@ -5,29 +5,20 @@ const Navlinks = () => {
         <>
             <NavLink
               to="/"
-              className={`({ isActive }) =>{
-                isActive ? "text-[#8f54ee] font-semibold underline" : ""
-              }`}
             >
               Home
             </NavLink>
 
             <NavLink
               to="/apps"
-              className={`({ isActive }) =>{
-                isActive ? "text-[#8f54ee] font-semibold underline" : ""
-              }`}
             >
               Apps
             </NavLink>
 
             <NavLink
               to="/installation"
-              className={`({ isActive }) =>{
-                isActive ? "text-[#8f54ee] font-semibold underline" : ""
-              }`}
             >
-              Installation
+              My Installation
             </NavLink>
         </>
     );

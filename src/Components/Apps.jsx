@@ -42,7 +42,7 @@ const Apps = () => {
             </p>
           </div>
           <div className="flex md:justify-between pb-5 flex-col items-center justify-center md:flex-row gap-3">
-            <h3 className="font-bold text-2xl">({apps.allApps.length}) Apps Found</h3>
+            <h3 className="font-bold text-2xl">({filteredApps.length}) Apps Found</h3>
             {/* search */}
             <div>
               <label className="input">
@@ -68,7 +68,7 @@ const Apps = () => {
           </div>
             {/* app cards */}
             {
-              loading ? <div className="flex justify-center items-center"><span className="loading loading-bars loading-xl"></span></div> : filteredApps.length===0 ? <SearchAppNotFound handleReset={handleReset}></SearchAppNotFound> : 
+              loading ? <div className="flex justify-center items-center min-h-[70vh] py-7"><span className="loading loading-bars loading-xl"></span></div> : filteredApps.length===0 ? <SearchAppNotFound handleReset={handleReset}></SearchAppNotFound> : 
               <div className="py-8 grid md:grid-cols-4 gap-4">
                 <AppCards apps= {filteredApps}>
 

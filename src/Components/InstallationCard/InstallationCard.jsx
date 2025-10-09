@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function InstallationCard({app}) {
+export default function InstallationCard({app, handleUinstall}) {
     const download = app.downloads / 1000000
+    
   return (
     <>
       <div className='p-2 bg-amber-100 mb-2 rounded-2xl flex justify-between items-center'>
@@ -27,7 +28,9 @@ export default function InstallationCard({app}) {
             </div>
         </div>
         <div>
-            <button className='btn bg-green-500 text-white font-bold'>Uninstall</button>
+            <button className='btn bg-green-500 text-white font-bold'
+                onClick={()=> {handleUinstall(app.title, app.id)}}
+            >Uninstall</button>
         </div>
       </div>
     </>

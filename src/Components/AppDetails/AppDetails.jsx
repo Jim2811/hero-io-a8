@@ -12,9 +12,13 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import AppNotFound from "../AppNotFound/AppNotFound";
 
 const AppDetails = () => {
   const appDetail = useLoaderData();
+  if (!appDetail) {
+   return <AppNotFound></AppNotFound>;
+  }
   const totalReview = appDetail.reviews / 1000;
   const totalDownloads = appDetail.downloads / 1000000;
   const ratingsData = appDetail.ratings;
@@ -33,6 +37,7 @@ const AppDetails = () => {
   }
 
   // button interactivity endsssss
+  // invalid app
   return (
     <div className="bg-gray-100 h-full">
       <div className="max-w-[1200px] mx-auto">

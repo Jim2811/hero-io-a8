@@ -28,7 +28,8 @@ const router = createBrowserRouter(
         loader: async ({params}) =>{
           const response = await fetch(`/appData.json`)
           const data = await response.json()
-          return data.find((i) => i.id === parseInt(params.id));
+          const singleApp = data.find((i) => i.id === parseInt(params.id));
+          return singleApp || null
         },
         Component: AppDetails
       },

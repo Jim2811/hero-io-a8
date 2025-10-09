@@ -44,7 +44,7 @@ const AppDetails = () => {
         <div className="border-b-1 pt-10 pb-6 flex gap-4 flex-col px-2 md:flex-row md:px-0">
           <div>
             <img
-              src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"
+              src={appDetail.image}
               className="max-w-[250px] max-h-[250px]"
             />
           </div>
@@ -94,7 +94,7 @@ const AppDetails = () => {
         </div>
         {/* rating */}
         <div className="py-6">
-          <h2 className="font-bold text-xl pb-4">Ratings</h2>
+          <h2 className="font-bold text-xl pb-4 px-2">Ratings</h2>
           {/* rating chart */}
           <div>
             {
@@ -129,7 +129,7 @@ const AppDetails = () => {
         </div>
         <hr />
         {/* description */}
-        <div className="py-6">
+        <div className="py-6 px-2">
           <h2 className="font-bold text-xl pb-4">Description</h2>
           <p>{appDetail.description}</p>
         </div>

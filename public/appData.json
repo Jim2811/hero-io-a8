@@ -1,362 +1,362 @@
 [
   {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "TaskFlow Manager",
-    "companyName": "NextGen Solutions",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
     "id": 1,
-    "description": "Boost productivity with smart task tracking and project management tools.",
-    "size": 45,
-    "reviews": 12500,
-    "ratingAvg": 4.6,
-    "downloads": 1200000,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 7200 }
-    ]
-  },
-  {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "FitTrack Pro",
-    "companyName": "Healthify Labs",
-    "id": 2,
-    "description": "Track your workouts, calories, and fitness goals effortlessly.",
-    "size": 60,
-    "reviews": 8900,
-    "ratingAvg": 4.4,
-    "downloads": 950000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2500 },
-      { "name": "5 star", "count": 3900 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "PhotoSpark Editor",
-    "companyName": "Pixel Studio",
-    "id": 3,
-    "description": "Enhance photos with filters, effects, and AI-powered touch-ups.",
-    "size": 80,
-    "reviews": 14200,
-    "ratingAvg": 4.8,
-    "downloads": 2000000,
-    "ratings": [
-      { "name": "1 star", "count": 200 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 9800 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "NoteWave",
-    "companyName": "CleverSoft",
-    "id": 4,
-    "description": "Sync notes and ideas across devices with smart organization.",
-    "size": 35,
-    "reviews": 7200,
-    "ratingAvg": 4.3,
-    "downloads": 870000,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 2400 },
-      { "name": "5 star", "count": 3800 }
-    ]
-  },
-  {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "SoundMate Player",
-    "companyName": "WaveMedia",
-    "id": 5,
-    "description": "Listen to your favorite songs, podcasts, and audiobooks anywhere.",
-    "size": 70,
-    "reviews": 21300,
-    "ratingAvg": 4.7,
-    "downloads": 3500000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 4300 },
-      { "name": "5 star", "count": 13400 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "QuickScan PDF",
-    "companyName": "DocuTech",
-    "id": 6,
-    "description": "Scan, edit, and share documents instantly from your mobile device.",
-    "size": 50,
-    "reviews": 7800,
-    "ratingAvg": 4.5,
-    "downloads": 1200000,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1300 },
-      { "name": "4 star", "count": 2600 },
-      { "name": "5 star", "count": 4000 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "TravelGo Planner",
-    "companyName": "JetWay Apps",
-    "id": 7,
-    "description": "Plan trips, find destinations, and manage itineraries easily.",
-    "size": 90,
-    "reviews": 9200,
-    "ratingAvg": 4.6,
-    "downloads": 1600000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 2900 },
-      { "name": "5 star", "count": 4600 }
-    ]
-  },
-  {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "CryptoTrack",
-    "companyName": "FinCore",
-    "id": 8,
-    "description": "Monitor live cryptocurrency prices and portfolio performance.",
+    "description": "Connect with friends and family around the world through posts, messages, photos, and videos. Discover trending topics and join communities that keep you entertained. Facebook lets you share memories, celebrate events, and communicate instantly. Create groups, explore the marketplace, and stay close to the people and interests that matter most.",
     "size": 65,
-    "reviews": 18700,
-    "ratingAvg": 4.8,
-    "downloads": 2500000,
+    "reviews": 12500000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 3000 },
-      { "name": "5 star", "count": 13200 }
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 7200000 }
     ]
   },
   {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "FoodieFinder",
-    "companyName": "TasteBud Labs",
-    "id": 9,
-    "description": "Discover nearby restaurants, cafes, and food deals effortlessly.",
-    "size": 55,
-    "reviews": 11400,
+    "image": "https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/youtube-logo-icon.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 2,
+    "description": "Watch videos from millions of creators across the world—covering entertainment, learning, music, gaming, and more. Subscribe to favorite channels and stream live content anywhere, anytime. YouTube powers your creativity, letting you upload and share your own videos. Enjoy short‑form content with YouTube Shorts and explore what’s trending globally.",
+    "size": 80,
+    "reviews": 23000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Chat instantly with friends and family across the world via messages or calls—all secured by end‑to‑end encryption. Send photos, documents, and voice messages to anyone for free. WhatsApp keeps you connected when mobiles or networks change. Stay close to loved ones or collaborate with teams anytime, on any device.",
+    "size": 45,
+    "reviews": 17000000,
     "ratingAvg": 4.4,
-    "downloads": 1400000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1700 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 5300 }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 10700000 }
     ]
   },
   {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "BudgetBuddy",
-    "companyName": "SmartFinance Inc.",
-    "id": 10,
-    "description": "Track your expenses, savings, and manage monthly budgets easily.",
-    "size": 48,
-    "reviews": 9600,
-    "ratingAvg": 4.5,
-    "downloads": 1150000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OEBHAAoQE1i5JIKjXMgAqA1G7kkhrMTf4Q&s",
+    "title": "Twitter (X)",
+    "companyName": "X Corp",
+    "id": 4,
+    "description": "Follow real‑time updates from around the world on culture, politics, sports, and more. Express your thoughts with posts, media, and live spaces for instant voice interaction. Join millions of users who share ideas on this open conversation network. Stay informed, share your perspective, and connect globally through trending hashtags.",
+    "size": 60,
+    "reviews": 8900000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 2800 },
-      { "name": "5 star", "count": 4400 }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5500000 }
     ]
   },
   {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "EduLearn",
-    "companyName": "BrightMind",
-    "id": 11,
-    "description": "Access online courses, quizzes, and certifications on any topic.",
-    "size": 100,
-    "reviews": 17500,
-    "ratingAvg": 4.7,
-    "downloads": 2100000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 11900 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "GameBox Hub",
-    "companyName": "FunWave Studios",
-    "id": 12,
-    "description": "Play trending casual and arcade games all in one app.",
-    "size": 85,
-    "reviews": 14200,
-    "ratingAvg": 4.6,
-    "downloads": 1800000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1700 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 8200 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "ShopEase",
-    "companyName": "RetailSoft",
-    "id": 13,
-    "description": "Shop online with discounts, deals, and cashback rewards.",
-    "size": 78,
-    "reviews": 22800,
-    "ratingAvg": 4.8,
-    "downloads": 3200000,
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 2000 },
-      { "name": "4 star", "count": 4100 },
-      { "name": "5 star", "count": 14600 }
-    ]
-  },
-  {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "NewsPulse",
-    "companyName": "DailyFeed",
-    "id": 14,
-    "description": "Get real-time news, trends, and alerts across all categories.",
-    "size": 68,
-    "reviews": 18600,
-    "ratingAvg": 4.5,
-    "downloads": 2700000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 3400 },
-      { "name": "5 star", "count": 9700 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "SafeVault",
-    "companyName": "SecureWare",
-    "id": 15,
-    "description": "Store passwords and documents safely with encrypted backup.",
-    "size": 40,
-    "reviews": 8700,
-    "ratingAvg": 4.6,
-    "downloads": 1100000,
-    "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2600 },
-      { "name": "5 star", "count": 3900 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "Weatherly",
-    "companyName": "SkyNet Labs",
-    "id": 16,
-    "description": "Accurate weather forecasts, alerts, and radar maps in real-time.",
-    "size": 42,
-    "reviews": 9100,
-    "ratingAvg": 4.3,
-    "downloads": 1250000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 2700 },
-      { "name": "5 star", "count": 3800 }
-    ]
-  },
-  {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "LangBridge",
-    "companyName": "PolyGlot Tech",
-    "id": 17,
-    "description": "Translate instantly between 100+ languages with voice support.",
-    "size": 73,
-    "reviews": 15300,
-    "ratingAvg": 4.7,
-    "downloads": 2300000,
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 3300 },
-      { "name": "5 star", "count": 9400 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/whatsapp-logo",
-    "title": "RideWave",
-    "companyName": "UrbanMotion",
-    "id": 18,
-    "description": "Book rides quickly and track drivers in real-time with ease.",
-    "size": 90,
-    "reviews": 19300,
-    "ratingAvg": 4.6,
-    "downloads": 2800000,
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 1700 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 11100 }
-    ]
-  },
-  {
-    "image": "https://www.freepik.com/free-photos-vectors/facebook-logo",
-    "title": "CalmSpace",
-    "companyName": "Mindful Apps",
-    "id": 19,
-    "description": "Relax with meditation, sleep sounds, and stress-relief sessions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/1200px-Tiktok_icon.svg.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 5,
+    "description": "Explore endless short videos that entertain, inspire, and make your day brighter. TikTok empowers creativity with easy editing tools, trending sounds, and filters. Discover what’s popular or become the next viral creator yourself. Every scroll immerses you in a world of dance, humor, fashion, and global entertainment.",
     "size": 95,
-    "reviews": 20500,
-    "ratingAvg": 4.8,
-    "downloads": 3000000,
+    "reviews": 24600000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 3100 },
-      { "name": "5 star", "count": 13000 }
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 4400000 },
+      { "name": "5 star", "count": 16200000 }
     ]
   },
   {
-    "image": "https://commons.wikimedia.org/wiki/File:Facebook_Messenger_logo_2025.svg",
-    "title": "StreamMax",
-    "companyName": "MediaZone",
-    "id": 20,
-    "description": "Stream movies, TV shows, and live events anytime, anywhere.",
-    "size": 110,
-    "reviews": 22800,
-    "ratingAvg": 4.7,
-    "downloads": 3400000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/960px-Instagram_icon.png?20200512141346",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 6,
+    "description": "Share your life through stories, posts, and reels with friends or followers worldwide. Discover creative inspiration from artists, travelers, and brands every day. Instagram connects you to global trends across fashion, lifestyle, and culture. Explore what's new and express yourself visually like never before.",
+    "size": 70,
+    "reviews": 21000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 3200 },
-      { "name": "5 star", "count": 13700 }
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1700000 },
+      { "name": "4 star", "count": 3800000 },
+      { "name": "5 star", "count": 14800000 }
+    ]
+  },
+  {
+    "image": "https://s3-alpha.figma.com/hub/file/2734964093/9f5edc36-eb4d-414a-8447-10514f2bc224-cover.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Stream millions of songs, playlists, and podcasts tailored to your taste. Spotify brings the music that matches your mood and keeps you moving through life. Discover new artists, listen offline, and enjoy curated recommendations just for you. Your soundtrack—wherever, whenever.",
+    "size": 85,
+    "reviews": 13200000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2900000 },
+      { "name": "5 star", "count": 8500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/2048px-Netflix_icon.svg.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 8,
+    "description": "Enjoy unlimited streaming of award‑winning shows, movies, documentaries, and Netflix Originals. Download titles to watch offline and create personalized profiles for your family. Browse collections based on genre or mood and get recommendations you’ll actually love. Entertainment has never been this effortless.",
+    "size": 120,
+    "reviews": 15800000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 11900000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Organize your emails, manage multiple accounts, and communicate efficiently with the world’s most reliable mail service. Gmail’s smart inbox helps prioritize important messages automatically. With built‑in Google Chat and Meet, it’s more than just email—it’s an all‑in‑one productivity hub.",
+    "size": 45,
+    "reviews": 8900000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/2048px-Google_Maps_icon_%282015-2020%29.svg.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Navigate like a local wherever you are. Google Maps provides accurate directions, live traffic updates, and nearby recommendations for dining or travel. Explore the world with Street View and discover hidden gems with real user reviews. Travel smarter, faster, and stress‑free.",
+    "size": 70,
+    "reviews": 10200000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 6350000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0AC4ndcUKkiMYx50wRym49y9CiJRr91-76A&s",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 11,
+    "description": "Grow your professional network and build your career with LinkedIn. Connect with colleagues, discover new job opportunities, and share your professional story. Stay updated with industry news, join discussion groups, and learn from experts. Make every connection count in the world’s largest business community.",
+    "size": 64,
+    "reviews": 8700000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 4700000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7G5WQiyGm2rhlJ4Nhfl6RANxQ1LvYGwDYg&s",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 12,
+    "description": "Discover inspiration for everything that sparks creativity—from home décor to fashion, cooking, and do‑it‑yourself projects. Save your favorite ideas and organize them in personalized boards. Find trending visuals and tips to bring your next big idea to life. Every pin helps turn imagination into creation.",
+    "size": 70,
+    "reviews": 7200000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/2504/2504941.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 13,
+    "description": "Fast, secure, and cloud‑based messenger built for speed and privacy. Create channels with unlimited audiences and store large files with ease. Telegram supports devices across platforms with advanced encryption for absolute security. Chat freely without limits or ads—just pure connection.",
+    "size": 55,
+    "reviews": 6300000,
+    "ratingAvg": 4.6,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 4300000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/4401/4401470.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 14,
+    "description": "Experience virtual communication like never before. Host or join meetings, webinars, and live classes with crystal‑clear video and audio. Zoom helps teams stay productive wherever they are through chat, file sharing, and collaboration features. Work, learn, and connect seamlessly from any device.",
+    "size": 78,
+    "reviews": 8200000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Store and organize your files securely in the cloud with Google Drive. Access your documents, pictures, and videos from any device at any time. Collaborate with friends or colleagues in real‑time and enjoy built‑in version control. Never lose a file again—your digital locker for life.",
+    "size": 60,
+    "reviews": 6700000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 4900000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/3536/3536761.png",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 16,
+    "description": "Dive into countless communities of every interest imaginable—from memes to science, games, and world news. Reddit is where meaningful conversations and humor collide. Upvote what you love, downvote what you don’t, and be part of an ever‑evolving online forum that truly belongs to its users.",
+    "size": 80,
+    "reviews": 7200000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/2504/2504943.png",
+    "title": "Tinder",
+    "companyName": "Match Group, LLC",
+    "id": 17,
+    "description": "Meet new people nearby and make connections anywhere in the world. Tinder makes dating simple—just swipe to match, chat, and start something new. With premium features like super likes and boosts, your perfect connection is a tap away. The app where countless stories begin.",
+    "size": 75,
+    "reviews": 6500000,
+    "ratingAvg": 4.2,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "5 star", "count": 3900000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/1409/1409941.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 18,
+    "description": "Capture and share life’s moments with friends everyday using fun AR filters and lenses. Snapchat lets photos and messages disappear after viewing, making every conversation spontaneous. Stay entertained with Discover stories or connect across Snap Map to see what’s happening near you.",
+    "size": 68,
+    "reviews": 7500000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1900000 },
+      { "name": "5 star", "count": 4600000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/2504/2504896.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 19,
+    "description": "Stay connected with your communities using voice, video, and text features on Discord. Build servers for friends or teams, share media, and host live events. Designed for gamers but loved by everyone, Discord offers the perfect mix of organization and fun communication.",
+    "size": 85,
+    "reviews": 7200000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/128/10096/10096351.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 20,
+    "description": "Shop millions of products across every category—from fashion and home to electronics and groceries. Track orders in real time and enjoy exclusive deals for Prime members. Amazon simplifies online shopping with secure payment options and quick, trusted delivery worldwide.",
+    "size": 105,
+    "reviews": 11200000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 7400000 }
     ]
   }
 ]

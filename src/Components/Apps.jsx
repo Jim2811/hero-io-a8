@@ -36,7 +36,7 @@ const Apps = () => {
         <div className="max-w-[1200px] mx-auto">
           <div className="text-center py-10">
             <h1 className="font-bold text-3xl">Our All Applications</h1>
-            <p>
+            <p className="pt-3">
               Explore All Apps on the Market developed by us. We code for
               Millions
             </p>

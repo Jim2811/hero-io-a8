@@ -8,8 +8,8 @@ const AppCard = ({app}) => {
             <div className="card bg-base-100 max-w-96 shadow-sm">
           <figure>
             <img
-              src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"
-              className="p-2 rounded-xl"
+              src={app.image}
+              className="p-2 rounded-xl max-w-[250px] h-[250px]"
             />
           </figure>
           <div className="card-body">
@@ -17,7 +17,7 @@ const AppCard = ({app}) => {
             <div className="flex justify-between">
                 <div className="btn outline-0 border-none">
                     <img src="/src/assets/icon-downloads.png" className="w-[13px] h-[13px]" />
-                    <p>{app.downloads}</p>
+                    <p>{app.downloads/1000000}M</p>
                 </div>
                 <div className="btn outline-0 border-none bg-amber-100">
                     <img src="/src/assets/icon-ratings.png" className="w-[13px] h-[13px]" />

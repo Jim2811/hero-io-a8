@@ -17,6 +17,7 @@ const Home = () => {
             <Statics></Statics>
             <TrendingApps apps={apps.allApps}></TrendingApps>
         </div>
+        
         </>
     );
 };

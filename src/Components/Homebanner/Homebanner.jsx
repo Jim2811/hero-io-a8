@@ -18,14 +18,14 @@ const Homebanner = () => {
             <div className="flex gap-2 justify-center flex-col md:flex-row py-3">
               <a className="btn" href="https://play.google.com/store/apps?hl=en" target="_blank">
                 <img
-                  src="/src/assets/google-play.png"
+                  src="/assets/google-play.png"
                   className="h-[19px] w-[19px]"
                 />{" "}
                 <span>Google Play</span>
               </a>
               <a className="btn" href="https://www.apple.com/app-store/" target="_blank">
                 <img
-                  src="/src/assets/app-store.png"
+                  src="/assets/app-store.png"
                   className="h-[19px] w-[19px]"
                 />{" "}
                 <span>App Store</span>
@@ -33,7 +33,7 @@ const Homebanner = () => {
             </div>
           </div>
           <div className="grid justify-center">
-            <img src="src/assets/hero.png" alt="" />
+            <img src="/assets/hero.png" alt="" />
           </div>
         </div>
       </div>

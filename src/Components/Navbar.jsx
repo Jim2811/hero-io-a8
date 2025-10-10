@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
           <a className=" flex items-center gap-1" href="/">
             <img
-              src="/src/assets/logo.png"
+              src="/assets/logo.png"
               alt="hero io logo"
               className="md:w-[40px] md:h-[40px] w-[30px] h-[30px]"
             />

@@ -10,8 +10,8 @@ const Homebanner = () => {
               We Build <br />
               <span className="text-[#632EE3]">Productive</span> Apps
             </h1>
-            <p className="max-w-5xl py-3 mx-auto">
-              At HERO.IO , we craft innovative apps designed to make everyday
+            <p className="max-w-5xl py-3 mx-auto italic">
+              At <span className="font-bold">HERO.IO</span> , we craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting.Our goal is to turn your
               ideas into digital experiences that truly make an impact.
             </p>
